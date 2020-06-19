@@ -8,16 +8,16 @@ Previous vtree heuristics did not take into account the continuous variables pre
 The paper results can be produced by first running the experiments:
 
 ```bash
-python3 ./paper/improvement-random/random-experiments.py -s all -p first -n 35 -t 30 -r 10
-python3 ./paper/improvement-random/random-experiments.py -s all -p second -n 40 -t 60 -r 10
-python3 ./paper/improvement-random/random-experiments.py -s opt -p first -n 35 -t 30
-python3 ./paper/improvement-random/random-experiments.py -s smi -p second -n 40 -t 60
+python3 ./paper/random-experiments.py -s all -p first -n 35 -t 30 -r 10
+python3 ./paper/random-experiments.py -s all -p second -n 40 -t 60 -r 10
+python3 ./paper/random-experiments.py -s opt -p first -n 35 -t 30
+python3 ./paper/random-experiments.py -s smi -p second -n 40 -t 60
 ```
 
 and then visualizing the results:
 
 ```bash
-python3 ./paper/improvement-random/random-visualization.py
+python3 ./paper/random-visualization.py
 ```
 
 ## Dependencies
