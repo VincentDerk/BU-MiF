@@ -1,0 +1,6 @@
+./results/dual_balanced_35.pl
+problems: 	 first
+heuristic: 	all
+repeat: 	 10
+timeout: 	 30
+max_n: 	 35

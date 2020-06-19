@@ -1,0 +1,6 @@
+./results/click_right-linear_40.pl
+problems: 	 click
+heuristic: 	right-linear
+repeat: 	 10
+timeout: 	 60
+max_n: 	 40

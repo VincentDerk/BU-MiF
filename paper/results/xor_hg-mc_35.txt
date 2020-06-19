@@ -1,0 +1,6 @@
+./results/xor_hg-mc_35.pl
+problems: 	 first
+heuristic: 	temp
+repeat: 	 10
+timeout: 	 30
+max_n: 	 35

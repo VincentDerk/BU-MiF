@@ -1,0 +1,6 @@
+./results/3ary_hc-mc_5.pl
+problems: 	 all
+heuristic: 	all
+repeat: 	 2
+timeout: 	 30
+max_n: 	 5

@@ -1,0 +1,6 @@
+./results/star_bamif_10.pl
+problems: 	 second
+heuristic: 	bamif
+repeat: 	 1
+timeout: 	 60
+max_n: 	 10

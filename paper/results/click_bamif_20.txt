@@ -1,0 +1,6 @@
+./results/click_bamif_20.pl
+problems: 	 all
+heuristic: 	bamif
+repeat: 	 1
+timeout: 	 60
+max_n: 	 20

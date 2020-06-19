@@ -1,0 +1,6 @@
+./results/star_balanced_40.pl
+problems: 	 second
+heuristic: 	all
+repeat: 	 10
+timeout: 	 60
+max_n: 	 40

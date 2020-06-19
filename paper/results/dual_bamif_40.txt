@@ -1,0 +1,6 @@
+./results/dual_bamif_40.pl
+problems: 	 all
+heuristic: 	bamif
+repeat: 	 1
+timeout: 	 60
+max_n: 	 40
