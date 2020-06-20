@@ -30,7 +30,7 @@ In addition to the dependencies mentioned in setup.py, you need to install the f
 python3 -m pip install --index-url https://pypi.org/simple/ --no-deps kahypar==1.0.4
 ```
 * psipy (Instructions from [pywmi](https://github.com/weighted-model-integration/pywmi/blob/master/README.md))
-    1. Install the dmd compiler v2.078.3
+    1. Install the [dmd compiler v2.078.3](http://downloads.dlang.org/releases/2.x/2.078.3/)
     2. git clone https://github.com/ariovistus/pyd.git
     3. cd pyd
     4. python setup.py install
@@ -39,7 +39,7 @@ python3 -m pip install --index-url https://pypi.org/simple/ --no-deps kahypar==1
     7. cd ./psypi
     8. python ./psipy/build_psi.py
     9. python setup.py install
-    10. Add the psi library to your path (command printed during the previous step) OR add a file called psipy.pth to your python distribution python/lib/python3.6/site-packages/ with the printed path as content. For example: `/home/vincent/psipy/build/lib.linux-x86_64-3.6`. The latter approach is recommended when for example using PyCharm and virtual environments.
+    10. Add the psi library to your path (command printed during the previous step) OR add a file called psipy.pth to your python distribution folder: `python/lib/python3.6/site-packages/` with the printed path as content. For example: `/home/vincent/psipy/build/lib.linux-x86_64-3.6`. The latter approach is recommended when for example using PyCharm and virtual environments.
 
 ## Authors
 
