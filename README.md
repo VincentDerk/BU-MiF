@@ -31,15 +31,21 @@ python3 -m pip install --index-url https://pypi.org/simple/ --no-deps kahypar==1
 ```
 * psipy (Instructions from [pywmi](https://github.com/weighted-model-integration/pywmi/blob/master/README.md))
     1. Install the [dmd compiler v2.078.3](http://downloads.dlang.org/releases/2.x/2.078.3/)
-    2. git clone https://github.com/ariovistus/pyd.git
-    3. cd pyd
-    4. python setup.py install
-    5. cd ../
-    6. git clone --recursive https://github.com/ML-KULeuven/psipy.git
-    7. cd ./psypi
-    8. python ./psipy/build_psi.py
-    9. python setup.py install
-    10. Add the psi library to your path (command printed during the previous step) OR add a file called psipy.pth to your python distribution folder: `python/lib/python3.6/site-packages/` with the printed path as content. For example: `/home/vincent/psipy/build/lib.linux-x86_64-3.6`. The latter approach is recommended when for example using PyCharm and virtual environments.
+    2. Install pyd
+    ```bash
+    git clone https://github.com/ariovistus/pyd.git
+    cd pyd
+    python setup.py install
+    cd ../
+    ```
+    3. Install psipy
+    ```bash
+    git clone --recursive https://github.com/ML-KULeuven/psipy.git
+    cd ./psypi
+    python ./psipy/build_psi.py
+    python setup.py install
+    ``` 
+    It will print a path to your psi build, either add the printed line to your path (add to ~/.bashrc) or create a file called 'psipy.pth' to your python distribution: `python/lib/python3.6/site-packages/` with the printed path as content (e.g. `/home/vincent/psipy/build/lib.linux-x86_64-3.6`). The latter approach is recommended when for example using PyCharm and virtual environments.
 
 ## Authors
 
