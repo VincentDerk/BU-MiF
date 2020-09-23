@@ -24,7 +24,7 @@ python3 ./paper/random-visualization.py
 
 In addition to the dependencies mentioned in setup.py, you need to install the following:
 
-* PyWMI ([Main_factorized branch](https://github.com/weighted-model-integration/pywmi/tree/main_factorized))
+* PyWMI ([Main_factorized branch](https://github.com/weighted-model-integration/pywmi/tree/main_factorized)) ([This version](https://github.com/weighted-model-integration/pywmi/tree/8b33dbeaacca35acc2e4087908a0a7183f18258a)) 
 * [KaHyPar](https://kahypar.org) Used for balanced min-cut.
 ```bash
 python3 -m pip install --index-url https://pypi.org/simple/ --no-deps kahypar==1.0.4
